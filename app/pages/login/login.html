@@ -1,9 +1,9 @@
 <ion-content class="login">
-  <div class="logo">
+  <div @logoState="logoIn" class="logo">
     <span>Logo Here</span>
   </div> 
 
-  <div class="social_buttons">
+  <div @buttonState="buttonIn" class="social_buttons">
     <ion-row>
       <button (click)="loginWithGoogle()" class="google_button">
         <ion-icon name="logo-googleplus"></ion-icon>
