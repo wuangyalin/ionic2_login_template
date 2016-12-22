@@ -1,4 +1,7 @@
 # ionic2_login_template
+#-------Updated on 22/12/2016
+ ## Update to the latest ionic2 version
+
 ## It saves you one day of building a login page
 
 How to Run
