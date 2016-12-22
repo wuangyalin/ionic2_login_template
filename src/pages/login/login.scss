@@ -1,0 +1,59 @@
+.login {
+  background-color: #333;
+  .logo{
+    text-align: center;
+    margin-top: 40%;
+  }
+  .logo span{
+    color: #aaaaaa;
+    font-family: Comic Sans MS;
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  .social_buttons{
+    position: relative;
+    margin-top: 30%;
+  }
+  .google_button{
+    position: relative;
+    margin: 0 auto;
+    background-color: #d34836;
+    width: 200px;
+    height: 30px;
+  }
+  .facebook_button{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #3b5998;
+    width: 200px;
+    height: 30px;
+  }
+  .twitter_button{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #4099ff;
+    width: 200px;
+    height: 30px;
+  }
+  .login_button{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50px;
+  }
+  .signin_button{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50px;
+  }
+  .text{
+    color: #aaa;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}

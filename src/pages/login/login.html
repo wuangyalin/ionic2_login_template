@@ -1,0 +1,33 @@
+<ion-content class="login">
+  <div [@logoState]="logoIn" class="logo">
+    <span>Logo Here</span>
+  </div> 
+
+  <div [@buttonState]="buttonIn" class="social_buttons">
+    <ion-row>
+      <button (click)="loginWithGoogle()" class="google_button">
+        <ion-icon name="logo-googleplus"></ion-icon>
+        Login With Google+
+      </button>
+    </ion-row>
+    <ion-row>
+      <button (click)="loginWithFaceBook()" class="facebook_button">
+        <ion-icon name="logo-facebook"></ion-icon>
+        Login With FaceBook
+      </button>
+    </ion-row>
+    <ion-row>
+      <button (click)="loginWithTwitter()" class="twitter_button">
+        <ion-icon name="logo-twitter"></ion-icon>
+        Login With Twitter
+      </button>
+    </ion-row>
+    <ion-row>
+      <span class="text">Or</span>
+    </ion-row>
+    <ion-row>
+      <button (click)="loginWithEmail()" class="login_button" clear>Log In</button>
+      <button class="signin_button" (click)="createAccount()" clear>Sign In</button>
+    </ion-row>
+  </div>
+</ion-content>
